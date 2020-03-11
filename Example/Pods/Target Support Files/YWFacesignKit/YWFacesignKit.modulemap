@@ -1,0 +1,6 @@
+framework module YWFacesignKit {
+  umbrella header "YWFacesignKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

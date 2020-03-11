@@ -1,0 +1,16 @@
+PODS:
+  - YWFacesignKit (0.1.0)
+
+DEPENDENCIES:
+  - YWFacesignKit (from `../`)
+
+EXTERNAL SOURCES:
+  YWFacesignKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YWFacesignKit: 3d75aa1714b9f88c5a35cca57418486e62ce65f3
+
+PODFILE CHECKSUM: dcb974aa9d35ccf953c23128c6b475d1f5026a0b
+
+COCOAPODS: 1.8.3

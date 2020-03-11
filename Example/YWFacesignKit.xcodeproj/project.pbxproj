@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0950149FE6C07CC46482052D /* Pods-YWFacesignKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWFacesignKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-YWFacesignKit_Tests/Pods-YWFacesignKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1CF4201D74A769302A2F5F2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3C94A255BCDF13E504A4CA92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1CF4201D74A769302A2F5F2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3C94A255BCDF13E504A4CA92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YWFacesignKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWFacesignKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A7BE477A66F880A84B97C1D /* Pods-YWFacesignKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWFacesignKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-YWFacesignKit_Example/Pods-YWFacesignKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C2A5FD642BCA058555F0D9E4 /* Pods-YWFacesignKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWFacesignKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YWFacesignKit_Tests/Pods-YWFacesignKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C66FD8D50E6A54E856B9D9D4 /* YWFacesignKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YWFacesignKit.podspec; path = ../YWFacesignKit.podspec; sourceTree = "<group>"; };
+		C66FD8D50E6A54E856B9D9D4 /* YWFacesignKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YWFacesignKit.podspec; path = ../YWFacesignKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E094E69BA0AB489C8CCBA1AD /* Pods_YWFacesignKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWFacesignKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A282BCE71F84DBD082E36D /* Pods-YWFacesignKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWFacesignKit_Example.release.xcconfig"; path = "Target Support Files/Pods-YWFacesignKit_Example/Pods-YWFacesignKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3FBC9B7AA543191BC726407 /* Pods_YWFacesignKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWFacesignKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +103,6 @@
 				C2A5FD642BCA058555F0D9E4 /* Pods-YWFacesignKit_Tests.debug.xcconfig */,
 				0950149FE6C07CC46482052D /* Pods-YWFacesignKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

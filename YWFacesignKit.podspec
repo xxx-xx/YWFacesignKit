@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YWFacesignKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A remote face-to-face signing feature'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/xxx-xx/YWFacesignKit.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Chaoooo' => 'hzxx_xlc@163.com' }
+  s.author           = { 'Xu Lichao' => 'hzxx_xlc@163.com' }
   s.source           = { :git => 'https://github.com/xxx-xx/YWFacesignKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
   # s.resource_bundles = {
   #   'YWFacesignKit' => ['YWFacesignKit/Assets/*.png']
   # }
-
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.frameworks = 'UIKit', 'MapKit'
+   s.dependency 'AFNetworking', 'NIMSDK'
 end

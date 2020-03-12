@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		107E5E82ACD4955456AC042A68D78C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1F84A3C08FA6A258800BCE1D37F7BD59 /* YWFacesignKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD82A4CF7F4BA8F60B792355A0462DC /* YWFacesignKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		409FD4232419E77500880852 /* MutiFaceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 409FD41C2419E77500880852 /* MutiFaceViewController.h */; };
+		409FD4242419E77500880852 /* MutiFaceContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 409FD41D2419E77500880852 /* MutiFaceContainerView.m */; };
+		409FD4252419E77500880852 /* MutiFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 409FD41E2419E77500880852 /* MutiFaceViewController.m */; };
+		409FD4262419E77500880852 /* MutiFaceContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 409FD41F2419E77500880852 /* MutiFaceContainerView.h */; };
+		409FD4272419E77500880852 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 409FD4212419E77500880852 /* LoginViewController.m */; };
+		409FD4282419E77500880852 /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 409FD4222419E77500880852 /* LoginViewController.h */; };
 		40FCF0FDB4A6DB8B3721DC060415A51B /* Pods-YWFacesignKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EAF6E367B963366EBE055CA5452D65 /* Pods-YWFacesignKit_Example-dummy.m */; };
 		527C9FE4CD7F1E5FA0ECBA6D2FCA510E /* Pods-YWFacesignKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0794D1A174260CC3B7B44280107280AA /* Pods-YWFacesignKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6238550EB8B17192F8F8D70A55D6C3CF /* Pods-YWFacesignKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E5B3AA31CFD311A7ACED84F1F7F43B /* Pods-YWFacesignKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DC7D54E76D3089F95303EABF493494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		795F1CA7F2DA6B8A6BFECFEEB2397F3A /* Pods-YWFacesignKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE576417BAB9D1C6727380E8426796B /* Pods-YWFacesignKit_Tests-dummy.m */; };
 		9D8BCBABE584681EF80772B320130D74 /* YWFacesignKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A15016E255F8C424D288437D6770584E /* YWFacesignKit-dummy.m */; };
-		AD41150EF10D8734795C8FBC3D7E290E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 325F066EAB8B970BC3D9141C548CA719 /* ReplaceMe.m */; };
 		E256F6DA86CCF4A644E73754D2E6720C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,16 +43,21 @@
 
 /* Begin PBXFileReference section */
 		00F63364C3BC23229A02FBCEF58DD55A /* Pods-YWFacesignKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWFacesignKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		058CC55EF673F5B6B7BD4FB380963A23 /* Pods_YWFacesignKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YWFacesignKit_Example.framework; path = "Pods-YWFacesignKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058CC55EF673F5B6B7BD4FB380963A23 /* Pods_YWFacesignKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWFacesignKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0794D1A174260CC3B7B44280107280AA /* Pods-YWFacesignKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YWFacesignKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		0868E5A7537C92F8A465EFFD8519CC72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0868E5A7537C92F8A465EFFD8519CC72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D58E23360D612801C3C375AA5D23247 /* YWFacesignKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YWFacesignKit.modulemap; sourceTree = "<group>"; };
 		22F1B585BA0490DC68569B5A2ABAF779 /* Pods-YWFacesignKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWFacesignKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		31E5B3AA31CFD311A7ACED84F1F7F43B /* Pods-YWFacesignKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YWFacesignKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		325F066EAB8B970BC3D9141C548CA719 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YWFacesignKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		409FD41C2419E77500880852 /* MutiFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiFaceViewController.h; sourceTree = "<group>"; };
+		409FD41D2419E77500880852 /* MutiFaceContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiFaceContainerView.m; sourceTree = "<group>"; };
+		409FD41E2419E77500880852 /* MutiFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiFaceViewController.m; sourceTree = "<group>"; };
+		409FD41F2419E77500880852 /* MutiFaceContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiFaceContainerView.h; sourceTree = "<group>"; };
+		409FD4212419E77500880852 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		409FD4222419E77500880852 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		5795CA5A94AB3AA0F3D01C0A03A513E6 /* Pods-YWFacesignKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YWFacesignKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5BAD5F9EABFA3D17F9D7642F62132700 /* Pods_YWFacesignKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YWFacesignKit_Tests.framework; path = "Pods-YWFacesignKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAD5F9EABFA3D17F9D7642F62132700 /* Pods_YWFacesignKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWFacesignKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7270F0D398A3D425EB80244E3C9BA118 /* Pods-YWFacesignKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YWFacesignKit_Example.modulemap"; sourceTree = "<group>"; };
 		73DCF4D12CCBCCB1FAFD743CF6646C13 /* Pods-YWFacesignKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWFacesignKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		74EAF6E367B963366EBE055CA5452D65 /* Pods-YWFacesignKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWFacesignKit_Example-dummy.m"; sourceTree = "<group>"; };
@@ -56,9 +66,9 @@
 		8DE576417BAB9D1C6727380E8426796B /* Pods-YWFacesignKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YWFacesignKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		90F59136C64818C1BA835B4E98C45EA6 /* Pods-YWFacesignKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWFacesignKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93FD5409105CA41C050CB5FD87749D7D /* Pods-YWFacesignKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWFacesignKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A15016E255F8C424D288437D6770584E /* YWFacesignKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YWFacesignKit-dummy.m"; sourceTree = "<group>"; };
-		A1F78B342D3B5F03FB3EE3E9DC485F75 /* YWFacesignKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YWFacesignKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F78B342D3B5F03FB3EE3E9DC485F75 /* YWFacesignKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YWFacesignKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A21DF031A8E88A7F3C27984FD8F7F1AE /* Pods-YWFacesignKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWFacesignKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B8AC9480F3C72BC677B89F6203104587 /* YWFacesignKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YWFacesignKit-Info.plist"; sourceTree = "<group>"; };
 		C270DB99663A865BB3C44E4DFE096451 /* Pods-YWFacesignKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWFacesignKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,8 +76,8 @@
 		DAF95328220D2A129526AF387BAC5CFE /* YWFacesignKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YWFacesignKit.xcconfig; sourceTree = "<group>"; };
 		DFC9EDD29B683F06E3C3FEAA6555B0E0 /* Pods-YWFacesignKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWFacesignKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		E1919ACD939200A1D9083BF586EF2B3F /* Pods-YWFacesignKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWFacesignKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E864F28ADEBDB97D898AB7B822EBCB9B /* YWFacesignKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YWFacesignKit.framework; path = YWFacesignKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB115C1111745D181FBAB029AD0FED10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E864F28ADEBDB97D898AB7B822EBCB9B /* YWFacesignKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YWFacesignKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB115C1111745D181FBAB029AD0FED10 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EBD82A4CF7F4BA8F60B792355A0462DC /* YWFacesignKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YWFacesignKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +122,7 @@
 		253BF002956E9C1FDD57278BB18040C5 /* YWFacesignKit */ = {
 			isa = PBXGroup;
 			children = (
-				325F066EAB8B970BC3D9141C548CA719 /* ReplaceMe.m */,
+				409FD41A2419E77500880852 /* Application */,
 				02464A613C3CE270E06303DEE797F4CA /* Pod */,
 				37D0092C4BB223AE602E31DEADAF850A /* Support Files */,
 			);
@@ -132,6 +142,36 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YWFacesignKit";
+			sourceTree = "<group>";
+		};
+		409FD41A2419E77500880852 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				409FD41B2419E77500880852 /* faceViewController */,
+				409FD4202419E77500880852 /* loginViewController */,
+			);
+			name = Application;
+			path = YWFacesignKit/Classes/Application;
+			sourceTree = "<group>";
+		};
+		409FD41B2419E77500880852 /* faceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				409FD41C2419E77500880852 /* MutiFaceViewController.h */,
+				409FD41D2419E77500880852 /* MutiFaceContainerView.m */,
+				409FD41E2419E77500880852 /* MutiFaceViewController.m */,
+				409FD41F2419E77500880852 /* MutiFaceContainerView.h */,
+			);
+			path = faceViewController;
+			sourceTree = "<group>";
+		};
+		409FD4202419E77500880852 /* loginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				409FD4212419E77500880852 /* LoginViewController.m */,
+				409FD4222419E77500880852 /* LoginViewController.h */,
+			);
+			path = loginViewController;
 			sourceTree = "<group>";
 		};
 		BDEE9B05D2A3AC9801136657289449FA /* Products */ = {
@@ -245,6 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				527C9FE4CD7F1E5FA0ECBA6D2FCA510E /* Pods-YWFacesignKit_Example-umbrella.h in Headers */,
+				409FD4232419E77500880852 /* MutiFaceViewController.h in Headers */,
+				409FD4262419E77500880852 /* MutiFaceContainerView.h in Headers */,
+				409FD4282419E77500880852 /* LoginViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +415,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409FD4272419E77500880852 /* LoginViewController.m in Sources */,
+				409FD4242419E77500880852 /* MutiFaceContainerView.m in Sources */,
 				40FCF0FDB4A6DB8B3721DC060415A51B /* Pods-YWFacesignKit_Example-dummy.m in Sources */,
+				409FD4252419E77500880852 /* MutiFaceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +426,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD41150EF10D8734795C8FBC3D7E290E /* ReplaceMe.m in Sources */,
 				9D8BCBABE584681EF80772B320130D74 /* YWFacesignKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,8 +535,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

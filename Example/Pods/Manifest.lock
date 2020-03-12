@@ -1,15 +1,40 @@
 PODS:
-  - YWFacesignKit (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - NIMSDK (7.3.0)
+  - YWFacesignKit (0.1.1):
+    - AFNetworking
+    - NIMSDK
 
 DEPENDENCIES:
   - YWFacesignKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - NIMSDK
 
 EXTERNAL SOURCES:
   YWFacesignKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YWFacesignKit: 3d75aa1714b9f88c5a35cca57418486e62ce65f3
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  NIMSDK: 8f1a750db4c52425cfe0c7a3df304a5d4901acc1
+  YWFacesignKit: 19118fe49a6e4430441758950409503b4aa2e8f8
 
 PODFILE CHECKSUM: dcb974aa9d35ccf953c23128c6b475d1f5026a0b
 

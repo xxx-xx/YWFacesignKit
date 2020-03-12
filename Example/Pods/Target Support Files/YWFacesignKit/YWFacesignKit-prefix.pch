@@ -1,5 +1,9 @@
 #ifdef __OBJC__
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "MBHUDTool.h"
+#import <NIMSDK/NIMSDK.h>
+#import <NIMAVChat/NIMAVChat.h>
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)
@@ -8,5 +12,29 @@
 #define FOUNDATION_EXPORT extern
 #endif
 #endif
+#endif
+
+//weakSelf 宏定义
+#define CHWEAKSELF    __weak __typeof(&*self)weakSelf = self;
+#define CHSTRONGSELF  __strong __typeof(weakSelf) strongSelf = weakSelf;
+
+#define kImage(name) [UIImage imageNamed:name]
+#define kFont(size) [UIFont systemFontOfSize:size]
+#define kBoldFont(size) [UIFont boldSystemFontOfSize:size]
+
+#define SCREEN_SIZE         [UIScreen mainScreen].bounds.size
+#define SCREEN_WIDTH        SCREEN_SIZE.width
+#define SCREEN_HEIGHT       SCREEN_SIZE.height
+
+//whether this string is empty
+#define ISEmptyString(str) (!str || str.length == 0)
+
+//非空判2
+#define IsNilOrNull(_ref)   (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))
+
+#ifdef DEBUG
+#define TraceS(NSString_format, ...) NSLog(@"%@", [NSString stringWithFormat:(NSString_format), ##__VA_ARGS__])
+#else
+#define TraceS(NSString_format, ...)
 #endif
 

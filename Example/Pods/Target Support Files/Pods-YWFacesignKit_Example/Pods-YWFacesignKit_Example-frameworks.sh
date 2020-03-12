@@ -161,9 +161,19 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NMC.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NMCBasicModuleFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YWFacesignKit/YWFacesignKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMSDK/NIMSDK.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NIMAVChat.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NMC.framework"
+  install_framework "${PODS_ROOT}/NIMSDK/NIMAVChat/NMCBasicModuleFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/YWFacesignKit/YWFacesignKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

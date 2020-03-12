@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "MutiFaceContainerView.h"
+#import "MutiFaceViewController.h"
+#import "LoginViewController.h"
 
 FOUNDATION_EXPORT double YWFacesignKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char YWFacesignKitVersionString[];

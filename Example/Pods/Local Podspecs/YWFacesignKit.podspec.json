@@ -1,22 +1,30 @@
 {
   "name": "YWFacesignKit",
-  "version": "0.1.0",
-  "summary": "A short description of YWFacesignKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Chaoooo/YWFacesignKit",
+  "version": "0.1.1",
+  "summary": "A remote face-to-face signing feature",
+  "description": "YWFacesignKit provides a remote face-to-face signing feature that increases business efficiency.",
+  "homepage": "https://github.com/xxx-xx/YWFacesignKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Chaoooo": "hzxx_xlc@163.com"
+    "Xu Lichao": "hzxx_xlc@163.com"
   },
   "source": {
-    "git": "https://github.com/Chaoooo/YWFacesignKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/xxx-xx/YWFacesignKit.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YWFacesignKit/Classes/**/*"
+  "source_files": "YWFacesignKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "NIMSDK": [
+
+    ]
+  }
 }
